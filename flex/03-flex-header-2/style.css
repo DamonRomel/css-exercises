@@ -13,6 +13,8 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  padding: 8px;
+  justify-content: center;
 }
 
 .profile-image {
@@ -51,8 +53,10 @@ ul {
   display: flex;
   margin-left: auto;
   align-self: flex-end;
+  gap: 16px;
 }
 
 .links{
   display: flex;
+  gap: 16px;
 }
